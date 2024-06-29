@@ -1,0 +1,423 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* home page start */
+
+.main-header {
+    background: #d82291;
+    padding: 7px 0;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.main-header .main-column {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    text-align: center;
+}
+
+.main-header .main-column .left-coloumn {
+    text-align: left;
+}
+
+.main-header .main-column .right-column {
+    text-align: right;
+}
+
+.main-header .main-column .right-column ul li {
+    display: inline-block;
+    padding: 0 85px;
+}
+
+.main-header .main-column .right-column ul li a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+/* banner start */
+
+.banner_section {
+    background: url("../../image/banner_img.jpg");
+    background-repeat: no-repeat;
+}
+
+.banner_section img {
+    width: 100%;
+}
+
+.banner_section .main-columm {
+    text-align: center;
+    padding: 250px 0;
+}
+
+.banner_section .main-columm a {
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+    color: #3014efd4;
+    text-transform: capitalize;
+}
+
+
+/* banner end */
+
+
+/* course section start */
+
+.course_details {
+    text-align: center;
+    padding: 85px 0;
+}
+
+.course_details img {
+    width: 100%;
+    height: 50%;
+}
+
+.course_details h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #978181;
+    padding-bottom: 17px;
+}
+
+.course_details .main-colum {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.course_details .main-colum h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #000000de;
+    font-family: "Open Sans", sans-serif;
+}
+
+.course_details .main-colum p {
+    font-size: 17px;
+    font-weight: 300;
+    color: #0006;
+}
+
+.course_details .main-colum .fee-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 25px;
+}
+
+.course_details .main-colum .fee-column p {
+    align-items: center;
+    color: #cc1b3c;
+}
+
+.course_details .main-colum .fee-column h2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #31d679;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/*student review start */
+
+.student_review {
+    text-align: center;
+    padding: 45px 0;
+}
+
+.student_review img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    text-align: right;
+    padding: 5px 35px;
+}
+
+.student_review .flex-column {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    box-shadow: 0px 1px 3px black;
+}
+
+.student_review .flex-column p {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    color: #00000069;
+    padding: 33px 0px;
+}
+
+.student_review h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #0000009c;
+    padding-bottom: 15px;
+}
+
+
+/* gallery section start */
+
+.gallery_section {
+    text-align: center;
+    padding: 75px 0;
+}
+
+.gallery_section h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #a62492;
+    padding-bottom: 25px;
+}
+
+.gallery_section .main-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.gallery_section .main-column img {
+    width: 100%;
+}
+
+
+/* about page start */
+
+.about_banner_section {
+    background: url("../../image/inner_banner.jpg");
+    background-repeat: no-repeat;
+}
+
+.about_banner_section .main-columm {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.about_banner_section .main-columm a {
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+    color: #3014efd4;
+    text-transform: capitalize;
+    padding: 50px 0;
+}
+
+.profile_section {
+   padding: 55px 0;
+    text-align: center;
+}
+
+.profile_section .main_column .staff_information img {
+    width: 100%;
+    
+}
+
+.profile_section .main_column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    text-align: center;
+}
+
+.profile_section .main_column .staff_information {
+    box-shadow: 1px 3px 3px gray;
+	border-radius: 8px;
+}
+
+.profile_section .main_column .staff_information h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #000000a6;
+    text-transform: uppercase;
+}
+
+.profile_section .main_column .staff_information p {
+    font-size: 17px;
+    font-weight: 300;
+    color: #00000063;
+    padding: 3px 10px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.profile_section h4 {
+    font-size: 35px;
+  font-weight: 500;
+  color: #000000bd;
+  padding: 17px 0;
+	
+    
+}
+
+.company_information {
+    text-align: center;
+    padding: 45px 0;
+}
+
+.company_information img{
+    width: 100%;
+   
+}
+
+.company_information .main-column {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 35px;
+    align-items: center;
+}
+
+.company_information .main-column p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000b0;
+    line-height: 39px;
+    text-align: left;
+}
+
+.company_information h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #978181;
+	padding: 25px 0;
+    
+}
+
+
+/* contact page start */
+
+.contact_banner_section {
+    background: url("../../image/inner_banner2.jpg");
+    background-repeat: no-repeat;
+}
+
+.contact_banner_section .main-columm {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.contact_banner_section .main-columm a {
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+    color: #3014efd4;
+    text-transform: capitalize;
+    padding: 50px 0;
+}
+
+.contact-information {
+    text-align: center;
+    padding: 35px 0;
+}
+
+.contact-information .main-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    text-align: center;
+    padding: 34px 0;
+}
+
+.contact-information .main-column .flex-column p {
+    font-size: 25px;
+    font-weight: 300;
+    color: #0000007a;
+    line-height: 29px;
+    padding: 35px 0;
+}
+
+.contact-information h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #0000009c;
+    padding-bottom: 15px;
+}
+
+.contact-information .main-column .flex-column {
+    box-sizing: border-box;
+    padding: 0 25px;
+}
+
+.contact-information {
+    padding: 45px 0;
+}
+
+.contact-form input {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-form .addres-menu {
+    margin: 35px 0;
+    padding: 13px 0;
+}
+
+.contact-form .phone {
+    margin: 35px 0;
+    padding: 13px 0;
+}
+
+.contact-form .mail {
+    margin: 35px 0;
+    padding: 13px 0;
+}
+
+.contact-form h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #0000009c;
+    padding-bottom: 15px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form .botton_section {
+    width: 15%;
+    height: 15%;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #83bf30;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 2px solid #83bf30;
+}
+
+.contact-form .botton_section a {
+    color: #fff;
+}
+
+.contact-form .botton_section:hover {
+    background: #2662d3;
+    border: 2px solid #1a1ee4;
+    ;
+}
